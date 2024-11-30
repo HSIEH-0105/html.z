@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NKUST 國立高雄科技大學</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f0f0f0;
+        }
+        .background {
+            background-image: url('螢幕擷取畫面 2024-11-07 204239.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            width: 100vw;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .overlay {
+            background-color: rgba(255, 255, 255, 0.6);
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+            color: #333;
+        }
+        h2 {
+            font-size: 1.2em;
+            color: #666;
+            margin-top: 5px;
+        }
+        .button-container {
+            margin-top: 20px;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #333;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .button:hover {
+            background-color: #e0e0e0;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="overlay">
+            <h1>國立高雄科技大學</h1>
+            <h2>National Kaohsiung University of Science and Technology</h2>
+            <div class="button-container">
+                <a href="first-campus.html" class="button">第一校區</a>
+                <a href="nanzih-campus.html" class="button">楠梓校區</a>
+                <a href="jiangong-campus.html" class="button">建功校區</a>
+                <a href="qijin-campus.html" class="button">旗津校區</a>
+                <a href="yanchao-campus.html" class="button">燕巢校區</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
